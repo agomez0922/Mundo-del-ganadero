@@ -11,7 +11,7 @@ addEventListener('DOMContentLoaded',()=>{
 
                 if (valor_actual < cantidad_maxima){
                      contador.innerText = Math.ceil(valor_actual + incremento)
-                     setTimeout(actualizar_contador, 100)
+                     setTimeout(actualizar_contador, 50)
                 }else {
                      contador.innerText = cantidad_maxima
                 }
